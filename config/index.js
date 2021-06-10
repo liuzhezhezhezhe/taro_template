@@ -25,7 +25,7 @@ const config = {
   copy: {
     patterns: [
       {
-        form: 'src/assets',
+        from: 'src/assets',
         to: 'dist/assets'
       }
     ],
