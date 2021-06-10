@@ -1,0 +1,29 @@
+.xst-file-picker {
+  display: flex;
+  flex-wrap: wrap;
+  .xst-file-picker-container {
+    width: 3em;
+    height: 3em;
+    margin: 10rpx;
+    position: relative;
+    .xst-file-picker-item {
+      width: 3em;
+      height: 3em;
+    }
+    .xst-file-picker-delete {
+      position: absolute;
+      top: -14px;
+      right: -19px;
+      padding: 6rpx 10rpx;
+      background-color: #848484;
+      border-radius: 15rpx;
+      font-size: 15rpx;
+      line-height: 15rpx;
+      color: #ffffff;
+    }
+  }
+}
+
+.at-curtain__body {
+  text-align: center;
+}

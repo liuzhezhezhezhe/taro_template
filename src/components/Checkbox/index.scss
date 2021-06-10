@@ -1,0 +1,29 @@
+.xst-checkbox-container {
+  display: flex;
+  justify-content: start;
+  flex-wrap: wrap;
+  .xst-checkbox-item {
+    display: flex;
+    align-items: center;
+    margin: 9rpx;
+    padding: 9rpx;
+    font-size: 30rpx;
+    color: #26262c;
+    border: 1rpx solid #dedede;
+    border-radius: 10rpx;
+    box-shadow: 0rpx 6rpx 6rpx #f4f4f4;
+    Image {
+      width: 1.7em;
+      height: 1.7em;
+      margin-right: 9rpx;
+    }
+    Text {
+      margin-right: 9rpx;
+    }
+  }
+  .xst-checkbox-item-active {
+    border-color: #325188;
+    color: #325188;
+    box-shadow: 0rpx 6rpx 6rpx #f4f4f4 inset;
+  }
+}
