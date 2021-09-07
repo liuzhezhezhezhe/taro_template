@@ -26,7 +26,7 @@
       " * $1",
       " */",
       "const Index: React.FC<{}> = () => {",
-      "  return <View className='container'>$2</View>;",
+      "  return <View className='$2-container'>$3</View>;",
       "};",
       "",
       "export default Index;",
